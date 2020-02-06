@@ -1,3 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.botonNave{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+a{
+    color: black;
+    font-weight: 600;
+}
+
+a:hover{
+    color: black;
+}
+
 .banner{
     background: rgba(235,29,29,1);
     background: -moz-linear-gradient(left, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
@@ -22,12 +42,34 @@
     padding: 20px;
 }
 
-.letra{
-      
+.conte-info{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px 40px;
 }
 
-.imageCon{
+.titulo{
+    background: rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
 
+.icono{
+    overflow: visible;
+    text-align: center;
+    max-width: 100px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.icono img{
+    border-radius: 50%;
+    width: 100%;
+    border: 5px solid rgba(0, 0, 0, 0.1);
 }
 
 .imagen{
@@ -43,7 +85,7 @@
     border: 5px solid rgba(237, 28, 36, 0.8);
 }
 
-.botonNave{
+.boto{
     text-align: center;
     padding: 3px;
     margin: 3px 0px 3px;
