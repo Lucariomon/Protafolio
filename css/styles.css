@@ -1,3 +1,5 @@
+/* Los estilos están bien 
+tal vez mejorar a lo que se refiere porque a veces no es claro que se quiere*/
 *{
     margin: 0px;
     padding: 0px;
@@ -84,7 +86,7 @@ footer{
     width: 100%;
     border: 5px solid rgba(237, 28, 36, 0.8);
 }
-
+/* Tal vez este nombre podría ser mas diciente*/
 .boto{
     text-align: center;
     padding: 3px;
