@@ -10,7 +10,6 @@
 }
 
 a{
-    color: black;
     font-weight: 600;
 }
 
@@ -63,10 +62,10 @@ footer{
 
 .imagen{
     overflow: visible;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 65px;
+    margin-bottom: 25px;
     margin-left: 40%;
-    max-width: 200px;
+    max-width: 250px;
 }
 
 .imagen img{
@@ -75,6 +74,6 @@ footer{
     border: 5px solid rgba(100, 100, 237, 0.8);
 }
 
-.separation{
-    margin-bottom: 50px;
+.gray{
+    color: gray;
 }
