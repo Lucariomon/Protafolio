@@ -14,32 +14,21 @@ a{
     font-weight: 600;
 }
 
+p{
+    font-size: large;
+}
+
 a:hover{
     color: black;
 }
 
-.banner{
-    background: rgba(235,29,29,1);
-    background: -moz-linear-gradient(left, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,29,29,1)), color-stop(26%, rgba(235,29,29,1)), color-stop(100%, rgba(44,222,235,1)));
-    background: -webkit-linear-gradient(left, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
-    background: -o-linear-gradient(left, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
-    background: -ms-linear-gradient(left, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
-    background: linear-gradient(to right, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb1d1d', endColorstr='#2cdeeb', GradientType=1 );
+.contenido{
+    background-color: lightblue;
     padding: 20px;
 }
 
-.contenido{
-    background: rgba(235,29,29,1);
-    background: -moz-linear-gradient(left, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,29,29,1)), color-stop(26%, rgba(235,29,29,1)), color-stop(100%, rgba(44,222,235,1)));
-    background: -webkit-linear-gradient(left, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
-    background: -o-linear-gradient(left, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
-    background: -ms-linear-gradient(left, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
-    background: linear-gradient(to right, rgba(235,29,29,1) 0%, rgba(235,29,29,1) 26%, rgba(44,222,235,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb1d1d', endColorstr='#2cdeeb', GradientType=1 );
-    padding: 20px;
+.navbar{
+    font-size: large;   
 }
 
 .conte-info{
@@ -74,24 +63,18 @@ footer{
 
 .imagen{
     overflow: visible;
-    margin-top: -20px;
-    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 40%;
     max-width: 200px;
 }
 
 .imagen img{
     border-radius: 50%;
     width: 100%;
-    border: 5px solid rgba(237, 28, 36, 0.8);
+    border: 5px solid rgba(100, 100, 237, 0.8);
 }
 
-.boto{
-    text-align: center;
-    padding: 3px;
-    margin: 3px 0px 3px;
-}
-
-.botonNave:hover{
-    box-shadow: 2px 2px 4px 3px white;
-    cursor: pointer;
+.separation{
+    margin-bottom: 50px;
 }

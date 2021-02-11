@@ -6,38 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <title>Portafolio JDTC</title>
   </head>
-  <body>
-    <section class="banner">
-      <div class="navegacion row col-md-12">
-        <div class="col-lg-3 col-md-3 col-sm-6">
-          <div class="boto">
-            <a class="botonNave" href="#quien"> ¿Quien Soy? </a>
-          </div>          
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid navbar-info">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#quien">Who is JDTC?</a></li>
+            <li><a href="#proyecto">Proyects</a></li>
+            <li><a href="#educacion">Education</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#social">Social Media</a></li>              
+          </ul>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="boto">
-            <a class="botonNave" href="#proyecto"> Mis Proyectos </a>
-          </div>          
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="boto">
-            <a class="botonNave" href="#educacion"> Educacion </a>
-          </div>          
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="boto">
-            <a class="botonNave" href="#social"> Redes/Contacto </a>
-          </div>          
-        </div>
-      </div>      
-    </section>
-    <section class="letra">
-      <div class="imageCon col-lg-12 col-md-12 col-sm-12">
+      </div>
+    </nav>     
+    <section>
+      <div class="col-lg-12 col-md-12 col-sm-12 align-items-center">
         <div class="mx-auto imagen">
           <img src="img/DavidT.jpeg" alt="José David Támara Cano">
         </div>
@@ -48,7 +40,7 @@
     </section>
     <section class="contenido contenedor-hidden">
       <div class="container">
-        <div id="quien" class="conte py-5">   
+        <div id="quien" class="separation py-5">   
           <div class="row align-items-center">
             <div class="row col-md-12 col-lg-5">
               <div class="icono">
@@ -56,20 +48,20 @@
               </div>
               <div class="align-middle">
                 <div class="titulo d-flex align-items-center">
-                  <h2>¿Quien Soy?</h2>
+                  <h2>Who is JDTC?</h2>
                 </div>
             </div>
             </div>
             <div class="col-md-12 col-lg-7">
               <div class="conte-info">
-                <h5>
-                  Soy José David Támara Cano, Joven de 20 años, Estudiante en la Universidad de los Andes haciendo la carrera de Ingeniería de Sistemas. Mis hobbies son Jugar Videojues y Diseño de Niveles en videojuegos, mis alimentos favoritos son los creeps y tengo un gran conocimiento en Java back. 
-                </h5>    
+                <p>
+                  I am José David Támara Cano a twenty-one years old student of the ‘Universidad de los Andes’ studying System Engineer. Grow up in ‘Cucuta, Norte de Santander’ study in the ‘San Jose de Peralta School’ where I develop my love for programming and resolve problems.  
+                </p>    
               </div>
             </div>
           </div>
         </div>
-        <div id="proyecto" class="conte py-5">   
+        <div id="proyecto" class="separation py-5">   
           <div class="row align-items-center">
             <div class="row col-md-12 col-lg-5">
               <div class="icono">
@@ -77,20 +69,23 @@
               </div>
               <div class="align-middle">
                 <div class="titulo d-flex align-items-center">
-                  <h2>Mis Proyectos</h2>
+                  <h2>Proyects</h2>
                 </div>
             </div>
             </div>
             <div class="col-md-12 col-lg-7">
               <div class="conte-info">
-                <h5>
-                  Vigil: Es una 'landing page' para la empresa de seguridad Vigil la cual fue parte del equipo que creo la pagina web, encargado de hacerla administrable y su layout. 
-                </h5>    
+                <p>
+                  Vigil Colombia: Contributed to the development of the landing page with the creation of the raw structure of the pages and making it administrable. 
+                  <br>
+                  <br>
+                  https://vigilcolombia.com/
+                </p>    
               </div>
             </div>
           </div>
         </div>
-        <div id="educacion" class="conte py-5">   
+        <div id="educacion" class="separation py-5">   
           <div class="row align-items-center">
             <div class="row col-md-12 col-lg-5">
               <div class="icono">
@@ -98,23 +93,44 @@
               </div>
               <div class="align-middle">
                 <div class="titulo d-flex align-items-center">
-                  <h2>Educacion</h2>
+                  <h2>Education</h2>
                 </div>
             </div>
             </div>
             <div class="col-md-12 col-lg-7">
               <div class="conte-info">
-                <h5>
-                  Colegio San Jose de Peralta, Cúcuta: En este sitio curse de primero a once y me gradue con unos de los puntajes más altos en el IFECS de ese colegio.
+                <p>
+                  San Jose de Peralta School, Cúcuta: Curse from first grade to eleven grade, graduating and archiving the highest IFECS score at the time. 
                   <br>
                   <br>
-                  Universidad de los Andes: Sitio de estudio actual donde estoy aprendiendo a ser un Ingeniero de Sistemas.    
-                </h5>    
+                  Universidad de los Andes, Bogota: Current educational entity where I study and now I am learning to become a System Engineer.
+                </p>     
               </div>
             </div>
           </div>
         </div>
-        <div id="social" class="conte py-5">   
+        <div id="hobbies" class="separation py-5">   
+          <div class="row align-items-center">
+            <div class="row col-md-12 col-lg-5">
+              <div class="icono">
+                <img src="img/icon_me.png" alt="" class="w-100">
+              </div>
+              <div class="align-middle">
+                <div class="titulo d-flex align-items-center">
+                  <h2>Hobbies</h2>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-12 col-lg-7">
+              <div class="conte-info">
+                <p>
+                  In my free time i like to play videogames such as Super Smash Bros Ultimate and Smite, also i like to desing levels of games in a personal proyect. <br> The music I like is energetic and with emotion, I don't have a specific genre or style.
+                </p>    
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="social" class="separation py-5">   
           <div class="row align-items-center">
             <div class="row col-md-12 col-lg-5">
               <div class="icono">
@@ -122,17 +138,21 @@
               </div>
               <div class="align-middle">
                 <div class="titulo d-flex align-items-center">
-                  <h2>Contacto</h2>
+                  <h2>Social Media</h2>
                 </div>
             </div>
             </div>
             <div class="col-md-12 col-lg-7">
               <div class="conte-info">
-                <h5>
-                  Correo Electronico Casual: lucariomon2@gmail.com
+                <p>
+                  E-mail: jd.tamara@uniandes.edu.co
+                  <br>
+                  <br>
+                  Direct contact: Discord lucariomon#6393
+                  <br>
                   <br>
                   Facebook: https://www.facebook.com/josedavidtamaracano
-                </h5>    
+                </p>    
               </div>
             </div>
           </div>
@@ -140,7 +160,7 @@
   </section>
     <footer>
       <h5>
-        Pagina Portafolio En WIP @Derechos Reservados a Undraw.co illustrations
+        Pagina Portafolio @Derechos Reservados a Undraw.co illustrations
       </h5>
     </footer>
 
