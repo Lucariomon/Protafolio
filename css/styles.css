@@ -73,12 +73,6 @@ footer{
     width: 250px;
 }
 
-.imagen img{
-    border-radius: 50%;
-    width: 100%;
-    border: 5px solid rgba(100, 100, 237, 0.8);
-}
-
 .gray{
     color: gray;
 }
