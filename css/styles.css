@@ -60,12 +60,17 @@ footer{
     border: 5px solid rgba(0, 0, 0, 0.1);
 }
 
-.imagen{
-    overflow: visible;
+.imagen {
+    border: 5px solid #BF4F36;
+    border-radius: 50%;
+    height: 250px;
     margin-top: 65px;
     margin-bottom: 25px;
     margin-left: 40%;
     max-width: 250px;
+    overflow: visible;
+    overflow: hidden;
+    width: 250px;
 }
 
 .imagen img{
@@ -76,4 +81,17 @@ footer{
 
 .gray{
     color: gray;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #9CCED9;
+}
+
+.fixed-top {
+    background-color: #0E3D59 !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
