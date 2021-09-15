@@ -54,10 +54,10 @@ footer{
     padding: 20px;
 }
 
-.icono img{
-    border-radius: 50%;
+.imagen img {
     width: 100%;
-    border: 5px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    object-fit: cover;
 }
 
 .imagen {
