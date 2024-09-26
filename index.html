@@ -1,182 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--Comentarios Juan José Peña:
+    Generales:
+        - Hizo falta colocar videos y audios en la página
+        - Pienso que los colores presentan un buen contraste.
+        - Hay problemas con el navbar superior en pantallas muy pequeñas. Este queda atravesado y no se puede volver a esconder.
+        - En pantallas pequeñas, el contenido principal de la página tiende a dejar un espacio en blanco cada vez más grande.
+        - Cierto texto se desborda en pantallas pequeñas.
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/styles.css">     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    HTML:
+        -Lo único mal identado son los párrafos muy largos y unas etiquetas script al final del archivo, pero esto no es grave.
+          El anidamiento de etiquetas se logra ver con facilidad.
+        -Según el verificador, se encontraron 1 warning y 2 errores; estos fueron por etiquetas mal cerradas o se encontró solo la etiqueta de cierre.
+        -El link de la hoja de estilos propia podría colocarse despúes de las de bootstrap para darle una mayor oportunidad de ser aplicada.
 
-    <title>Portafolio JDTC</title>
-  </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    CSS:
+        - Excelente
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#quien">Who is JDTC?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#proyecto">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#educacion">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#hobbies">Hobbies</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#social">Social Media</a>
-        </li>
-      </ul>
-    </nav>
-         
-    <section>
-      <div class="col-lg-12 col-md-12 col-sm-12 align-items-center">
-        <div class="mx-auto imagen">
-          <img src="img/DavidT.jpeg" alt="José David Támara Cano">
+-->
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <title>Portafolio JDTC</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#quien">Who is JDTC?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#proyecto">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#educacion">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#hobbies">Hobbies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#social">Social Media</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="col-lg-12 col-md-12 col-sm-12 align-items-center">
+      <div class="mx-auto imagen">
+        <img src="img/DavidT.jpeg" alt="José David Támara Cano">
+      </div>
+    </div>
+  </section>
+  <section class="contenido contenedor-hidden">
+    <div class="container">
+      <div id="quien" class="py-5">
+        <div class="row align-items-center">
+          <div class="row col-md-12 col-lg-5">
+            <div class="icono">
+              <img src="img/icon_me.png" alt="" class="w-100">
+            </div>
+            <div class="align-middle">
+              <div class="titulo d-flex align-items-center">
+                <h2>Who is JDTC?</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-7">
+            <div class="conte-info">
+              <p>
+                I am José David Támara Cano a twenty-one years old student of the ‘Universidad de los Andes’ studying
+                System Engineer. Grow up in ‘Cucuta, Norte de Santander’ study in the ‘San Jose de Peralta School’ where
+                I develop my love for programming and resolve problems.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-    <section class="contenido contenedor-hidden">
-      <div class="container">
-        <div id="quien" class="py-5">   
-          <div class="row align-items-center">
-            <div class="row col-md-12 col-lg-5">
-              <div class="icono">
-                <img src="img/icon_me.png" alt="" class="w-100">
-              </div>
-              <div class="align-middle">
-                <div class="titulo d-flex align-items-center">
-                  <h2>Who is JDTC?</h2>
-                </div>
+      <div id="proyecto" class="py-5">
+        <div class="row align-items-center">
+          <div class="row col-md-12 col-lg-5">
+            <div class="icono">
+              <img src="img/icon_proyect.png" alt="" class="w-100">
             </div>
-            </div>
-            <div class="col-md-12 col-lg-7">
-              <div class="conte-info">
-                <p>
-                  I am José David Támara Cano a twenty-one years old student of the ‘Universidad de los Andes’ studying System Engineer. Grow up in ‘Cucuta, Norte de Santander’ study in the ‘San Jose de Peralta School’ where I develop my love for programming and resolve problems.  
-                </p>    
+            <div class="align-middle">
+              <div class="titulo d-flex align-items-center">
+                <h2>Projects</h2>
               </div>
             </div>
           </div>
-        </div>
-        <div id="proyecto" class="py-5">   
-          <div class="row align-items-center">
-            <div class="row col-md-12 col-lg-5">
-              <div class="icono">
-                <img src="img/icon_proyect.png" alt="" class="w-100">
-              </div>
-              <div class="align-middle">
-                <div class="titulo d-flex align-items-center">
-                  <h2>Projects</h2>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-12 col-lg-7">
-              <div class="conte-info">
-                <p>
-                  Vigil Colombia: Contributed to the development of the landing page with the creation of the raw structure of the pages and making it administrable. 
-                  <br>
-                  <br>
-                  https://vigilcolombia.com/
-                </p>    
-              </div>
+          <div class="col-md-12 col-lg-7">
+            <div class="conte-info">
+              <p>
+                Vigil Colombia: Contributed to the development of the landing page with the creation of the raw
+                structure of the pages and making it administrable.
+                <br>
+                <br>
+                https://vigilcolombia.com/
+              </p>
             </div>
           </div>
         </div>
-        <div id="educacion" class="py-5">   
-          <div class="row align-items-center">
-            <div class="row col-md-12 col-lg-5">
-              <div class="icono">
-                <img src="img/icon_edu.png" alt="" class="w-100">
-              </div>
-              <div class="align-middle">
-                <div class="titulo d-flex align-items-center">
-                  <h2>Education</h2>
-                </div>
+      </div>
+      <div id="educacion" class="py-5">
+        <div class="row align-items-center">
+          <div class="row col-md-12 col-lg-5">
+            <div class="icono">
+              <img src="img/icon_edu.png" alt="" class="w-100">
             </div>
-            </div>
-            <div class="col-md-12 col-lg-7">
-              <div class="conte-info">
-                <p>
-                  San Jose de Peralta School, Cúcuta: Curse from first grade to eleven grade, graduating and archiving the highest IFECS score at the time. 
-                  <br>
-                  <br>
-                  Universidad de los Andes, Bogota: Current educational entity where I study and now I am learning to become a System Engineer.
-                </p>     
+            <div class="align-middle">
+              <div class="titulo d-flex align-items-center">
+                <h2>Education</h2>
               </div>
             </div>
           </div>
-        </div>
-        <div id="hobbies" class="py-5">   
-          <div class="row align-items-center">
-            <div class="row col-md-12 col-lg-5">
-              <div class="icono">
-                <img src="img/icon_me.png" alt="" class="w-100">
-              </div>
-              <div class="align-middle">
-                <div class="titulo d-flex align-items-center">
-                  <h2>Hobbies</h2>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-12 col-lg-7">
-              <div class="conte-info">
-                <p>
-                  In my free time i like to play videogames such as Super Smash Bros Ultimate and Smite, also i like to desing levels of games in a personal proyect. <br> The music I like is energetic and with emotion, I don't have a specific genre or style.
-                </p>    
-              </div>
+          <div class="col-md-12 col-lg-7">
+            <div class="conte-info">
+              <p>
+                San Jose de Peralta School, Cúcuta: Curse from first grade to eleven grade, graduating and archiving the
+                highest IFECS score at the time.
+                <br>
+                <br>
+                Universidad de los Andes, Bogota: Current educational entity where I study and now I am learning to
+                become a System Engineer.
+              </p>
             </div>
           </div>
         </div>
-        <div id="social" class="py-5">   
-          <div class="row align-items-center">
-            <div class="row col-md-12 col-lg-5">
-              <div class="icono">
-                <img src="img/icon_contact.png" alt="" class="w-100">
-              </div>
-              <div class="align-middle">
-                <div class="titulo d-flex align-items-center">
-                  <h2>Social Media</h2>
-                </div>
+      </div>
+      <div id="hobbies" class="py-5">
+        <div class="row align-items-center">
+          <div class="row col-md-12 col-lg-5">
+            <div class="icono">
+              <img src="img/icon_me.png" alt="" class="w-100">
             </div>
-            </div>
-            <div class="col-md-12 col-lg-7">
-              <div class="conte-info">
-                <p>
-                  E-mail: jd.tamara@uniandes.edu.co
-                  <br>
-                  <br>
-                  Direct contact: Discord lucariomon#6393
-                  <br>
-                  <br>
-                  Facebook: https://www.facebook.com/josedavidtamaracano
-                </p>    
+            <div class="align-middle">
+              <div class="titulo d-flex align-items-center">
+                <h2>Hobbies</h2>
               </div>
             </div>
           </div>
+          <div class="col-md-12 col-lg-7">
+            <div class="conte-info">
+              <p>
+                In my free time i like to play videogames such as Super Smash Bros Ultimate and Smite, also i like to
+                desing levels of games in a personal proyect. <br> The music I like is energetic and with emotion, I
+                don't have a specific genre or style.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+      <div id="social" class="py-5">
+        <div class="row align-items-center">
+          <div class="row col-md-12 col-lg-5">
+            <div class="icono">
+              <img src="img/icon_contact.png" alt="" class="w-100">
+            </div>
+            <div class="align-middle">
+              <div class="titulo d-flex align-items-center">
+                <h2>Social Media</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-7">
+            <div class="conte-info">
+              <p>
+                E-mail: jd.tamara@uniandes.edu.co
+                <br>
+                <br>
+                Direct contact: Discord lucariomon#6393
+                <br>
+                <br>
+                Facebook: https://www.facebook.com/josedavidtamaracano
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
-    <footer>
-      <p>
-        José David Támara Cano Portafolio Page
-        <br>@All Rights Reserved to <a class="gray" href="https://undraw.co/illustrations">Undraw.co illustrations</a>
-        <br>@All Rights Reserved to <a class="gray" href="https://www.w3schools.com/bootstrap4/default.asp">W3schools</a>
-      </p>
-    </footer>
+  <footer>
+    <p>
+      José David Támara Cano Portafolio Page
+      <br>@All Rights Reserved to <a class="gray" href="https://undraw.co/illustrations">Undraw.co illustrations</a>
+      <br>@All Rights Reserved to <a class="gray" href="https://www.w3schools.com/bootstrap4/default.asp">W3schools</a>
+    </p>
+  </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <script src="javascript/code.js"></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="javascript/code.js"></script>
+</body>
+
 </html>
